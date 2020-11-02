@@ -14,7 +14,7 @@ plt.xticks(
 ### Uploading and modifying images in Github - Markdown and Html syntax
 Markdown: 
 ```python
-# ![ ] (file path)
+# ![ alt ] (file path)
 ```
 Html Syntax:     
 ```python
@@ -225,7 +225,7 @@ plt.show()
 ## Inserting an Image:
 ### Markdown Syntax:  
 ```python
-# ![ ] (file path)
+# ![ alt ] (file path)
 ![ ](demobarplot.png)
 ```
 ![ ](/Demo/demobarplot.png)
