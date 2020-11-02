@@ -1,7 +1,7 @@
-## Welcome to my Demo:
+# Welcome to my Demo:
 This demo focuses on embedding images in GitHub:
 
-### Here is what happens when I import the Jupyter notebook:
+## Here is what happens when I import the Jupyter notebook:
 
 
 ```python
@@ -194,7 +194,7 @@ plt.title('Happiness Scores')
 plt.show()
 ```
 
-## Image Not working!
+### Image Not working!
 ![png](Demo_files/Demo_3_0.png)
 
 # ------------------------------------------------------------------------ 
@@ -214,7 +214,7 @@ plt.show()
 
 # width allows you to change the size of the image, as shown below:
 ```
-## Here is what happens when I import a photo of the barplot (width = 200)
+### Here is what happens when I import a photo of the barplot (width = 200)
 <img width="200" alt="demobarplot" src="demobarplot.png">
 
 ### Here, I change the size of the image: (width = 350)
