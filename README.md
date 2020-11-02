@@ -19,7 +19,7 @@ Markdown:
 Html Syntax:     
 ```python
 <img width = "x" alt = "xyz" src = "path">
-
+```
 # --------------------------------------------------------------- 
 
 ## Here is what happens when I import the Jupyter notebook:
