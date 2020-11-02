@@ -3,12 +3,14 @@ This demo focuses on embedding images in GitHub:
 
 ## 3 Main Takeaways:
 ### Modifying x ticks/labels in a plot
-plt.xticks(
+```python
+lt.xticks(
     rotation = x, #degrees
     horizontalalignment = 'right',
     fontweight = 'bold', # or 'light'
     fontsize = 'small'  # or large
 )
+```
 ### Uploading and modifying images in Github - Markdown and Html syntax
 Markdown: 
 ```python
