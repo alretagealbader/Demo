@@ -1,11 +1,6 @@
 ## Welcome to my Demo:
 
 
-html
-<img src=“demobarplot.png”>
-
-<img width="250" alt="demobarplot" src="demobarplot.png">
-
 ### Here is what happens when I import the Jupyter notebook:
 
 
@@ -185,16 +180,6 @@ all
 </div>
 
 
-
-```python
-# Barplot
-barplot = sns.catplot(kind='bar', data= all, y='Score', x = 'Country or region')
-```
-
-## Image Not Working
-![png](Demo_files/Demo_2_0.png)
-    
-
 ```python
 # Barplot
 barplot = sns.catplot(kind='bar', data= all, y='Score', x = 'Country or region')
@@ -209,16 +194,18 @@ plt.title('Happiness Scores')
 plt.show()
 ```
 
-## Image Not working 
+## Image Not working!
 ![png](Demo_files/Demo_3_0.png)
 
-
-## Inserting an Image using Markdown Syntax
-![] (file path)
-![](demobarplot.png)
+# ------------------------------------------------------------------------ 
 
 
-### Here is what happens when I import a photo of the barplot (using HTML syntax)
+
+## Inserting an Image:
+### Markdown Syntax:   ![] (file path) --> ![](demobarplot.png)
+### Html Syntax:    <img width="x" alt="xyz" src="path/to/image">.  
+
+## Here is what happens when I import a photo of the barplot (using HTML syntax)
 <img width="x" alt="xyz" src="path/to/image">
 
 <img width="250" alt="demobarplot" src="https://user-images.githubusercontent.com/73716282/97893309-7f246400-1d07-11eb-8c31-f4768352fec5.png">
