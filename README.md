@@ -206,6 +206,8 @@ plt.show()
 ```python
 ![] (file path) --> ![](demobarplot.png)
 ```
+![](demobarplot.png)
+
 ### Html Syntax:     
 ```python
 <img width="x" alt="xyz" src="path/to/image">
@@ -215,8 +217,8 @@ plt.show()
 ## Here is what happens when I import a photo of the barplot (width = 200)
 <img width="200" alt="demobarplot" src="https://user-images.githubusercontent.com/73716282/97893309-7f246400-1d07-11eb-8c31-f4768352fec5.png">
 
-### Here, I change the size of the image: (width = 450)
+### Here, I change the size of the image: (width = 350)
 
-<img width="450" alt="demobarplot" src="https://user-images.githubusercontent.com/73716282/97893309-7f246400-1d07-11eb-8c31-f4768352fec5.png">
+<img width="350" alt="demobarplot" src="https://user-images.githubusercontent.com/73716282/97893309-7f246400-1d07-11eb-8c31-f4768352fec5.png">
 
 [Questions?](mailto:al962601@dal.ca)
