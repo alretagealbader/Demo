@@ -197,6 +197,10 @@ plt.show()
 ### Image Not working!
 ![png](Demo_files/Demo_3_0.png)
 
+```python
+![png](Demo_files/Demo_3_0.png)
+```
+
 # ------------------------------------------------------------------------ 
 
 
@@ -211,8 +215,8 @@ plt.show()
 
 ### Html Syntax:     
 ```python
-<img width="x" alt="xyz" src="path">
-<img width="200" alt="demoplot" src="demobarplot.png">
+# <img width="x" alt="xyz" src="path">
+<img width="200" alt="demobarplot" src="demobarplot.png">
 
 # width allows you to change the size of the image, as shown below:
 ```
