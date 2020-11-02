@@ -206,11 +206,11 @@ plt.show()
 ```python
 ![] (file path) --> ![](demobarplot.png)
 ```
-![](demobarplot.png)
+![](/Demo/demobarplot.png)
 
 ### Html Syntax:     
 ```python
-<img width="x" alt="xyz" src="path/to/image">
+<img width="x" alt="xyz" src="demobarplot.png">
 
 # width allows you to change the size of the image, as shown below:
 ```
