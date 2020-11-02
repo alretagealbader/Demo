@@ -1,6 +1,5 @@
 ## Welcome to my Demo:
-Mark
-![](demobarplot.png)
+
 
 html
 <img src=“demobarplot.png”>
@@ -187,21 +186,14 @@ all
 
 
 
-
 ```python
 # Barplot
 barplot = sns.catplot(kind='bar', data= all, y='Score', x = 'Country or region')
 ```
 
-
-
-
-    
+## Image Not Working
 ![png](Demo_files/Demo_2_0.png)
     
-
-
-
 
 ```python
 # Barplot
@@ -217,25 +209,22 @@ plt.title('Happiness Scores')
 plt.show()
 ```
 
-
-
-
-    
+## Image Not working 
 ![png](Demo_files/Demo_3_0.png)
-    
 
 
+## Inserting an Image using Markdown Syntax
+![] (file path)
+![](demobarplot.png)
 
 
-
-### Here is what happens when I import a photo of the barplot
+### Here is what happens when I import a photo of the barplot (using HTML syntax)
+<img width="x" alt="xyz" src="path/to/image">
 
 <img width="250" alt="demobarplot" src="https://user-images.githubusercontent.com/73716282/97893309-7f246400-1d07-11eb-8c31-f4768352fec5.png">
 
-
-### Here, I change the size of the image:
+### Here, I change the size of the image: 
 
 <img width="550" alt="demobarplot" src="https://user-images.githubusercontent.com/73716282/97893309-7f246400-1d07-11eb-8c31-f4768352fec5.png">
-
 
 [Questions?](mailto:al962601@dal.ca)
