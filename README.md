@@ -5,6 +5,8 @@ Mark
 html
 <img src=“demobarplot.png”>
 
+<img width="250" alt="demobarplot" src="demobarplot.png">
+
 ### Here is what happens when I import the Jupyter notebook:
 
 
