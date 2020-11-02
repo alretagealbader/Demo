@@ -3,7 +3,7 @@ Mark
 ![](demobarplot.png)
 
 html
-<img src = “demobarplot.png”>
+<img src = “demobarplot.png” width="100">
 
 ### Here is what happens when I import the Jupyter notebook:
 
