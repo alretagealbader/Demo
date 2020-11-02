@@ -11,7 +11,7 @@ plt.xticks(
 )
 ### Uploading and modifying images in Github - Markdown and Html syntax
 Markdown: ![ ] (file path)
-<img width = "x" alt = "xyz" src = "path">
+Html: <img width = "x" alt = "xyz" src = "file path">
 
 # --------------------------------------------------------------- 
 
