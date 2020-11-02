@@ -1,5 +1,5 @@
 ## Welcome to my Demo:
-
+This demo focuses on embedding images in GitHub:
 
 ### Here is what happens when I import the Jupyter notebook:
 
@@ -202,12 +202,17 @@ plt.show()
 
 
 ## Inserting an Image:
-### Markdown Syntax:   ![] (file path) --> ![](demobarplot.png)
-### Html Syntax:    <img width="x" alt="xyz" src="path/to/image">.  
-
-## Here is what happens when I import a photo of the barplot (using HTML syntax)
+### Markdown Syntax:  
+```python
+![] (file path) --> ![](demobarplot.png)
+```
+### Html Syntax:     
+```python
 <img width="x" alt="xyz" src="path/to/image">
 
+# width allows you to change the size of the image, as shown below:
+```
+## Here is what happens when I import a photo of the barplot (using HTML syntax)
 <img width="250" alt="demobarplot" src="https://user-images.githubusercontent.com/73716282/97893309-7f246400-1d07-11eb-8c31-f4768352fec5.png">
 
 ### Here, I change the size of the image: 
