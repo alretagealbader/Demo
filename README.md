@@ -1,15 +1,21 @@
 # Welcome to my Demo:
 This demo focuses on embedding images in GitHub:
 
+## Main Takeaways:
+### Modifying x ticks/labels in a plot
+plt.xticks(
+    rotation = x, #degrees
+    horizontalalignment = 'right',
+    fontweight = 'bold', # or 'light'
+    fontsize = 'small'  # or large
+)
+### Uploading and modifying images in Github - Markdown and Html syntax
+Markdown: ![ ] (file path)
+<img width = "x" alt = "xyz" src = "path">
+
+# --------------------------------------------------------------- 
+
 ## Here is what happens when I import the Jupyter notebook:
-
-
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import scipy.stats
-```
 
 
 ```python
@@ -182,13 +188,13 @@ all
 
 ```python
 # Barplot
-barplot = sns.catplot(kind='bar', data= all, y='Score', x = 'Country or region')
+barplot = sns.catplot(kind = 'bar', data = all, y = 'Score', x = 'Country or region')
 # Modifying X-Labels to avoid overlapping country names
 plt.xticks(
-    rotation=45, #degrees
-    horizontalalignment='right',
-    fontweight='bold', # or 'light'
-    fontsize='small'  # or large
+    rotation = 45, #degrees
+    horizontalalignment = 'right',
+    fontweight = 'bold', # or 'light'
+    fontsize = 'small'  # or large
 )
 plt.title('Happiness Scores')
 plt.show()
@@ -201,27 +207,27 @@ plt.show()
 ![png](Demo_files/Demo_3_0.png)
 ```
 
-# ------------------------------------------------------------------ 
+# --------------------------------------------------------------- 
 
 
 
 ## Inserting an Image:
 ### Markdown Syntax:  
 ```python
-# ![] (file path)
-![](demobarplot.png)
+# ![ ] (file path)
+![ ](demobarplot.png)
 ```
-![](/Demo/demobarplot.png)
+![ ](/Demo/demobarplot.png)
 
 ### Html Syntax:     
 ```python
-# <img width="x" alt="xyz" src="path">
+# <img width = "x" alt = "xyz" src = "path">
 <img width="200" alt="demobarplot" src="demobarplot.png">
 
 # width allows you to change the size of the image, as shown below:
 ```
 ### Here is what happens when I import a photo of the barplot (width = 200)
-<img width="200" alt="demobarplot" src="demobarplot.png">
+<img width = "200" alt = "demobarplot" src = "demobarplot.png">
 
 ### Here, I change the size of the image: (width = 300)
 
