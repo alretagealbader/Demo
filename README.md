@@ -22,7 +22,11 @@ Html Syntax:
 ```
 # --------------------------------------------------------------- 
 
-## Here is what happens when I import the Jupyter notebook:
+## Importing code and images:
+
+When working on my portfolio, I wanted to transfer over some code and plots (images) from CoCalc. 
+
+As you can see below, the code transferred alright, but the images weren't showing up.
 
 
 ```python
