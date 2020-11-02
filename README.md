@@ -4,7 +4,7 @@ This demo focuses on embedding images in GitHub:
 ## 3 Main Takeaways:
 ### Modifying x ticks/labels in a plot
 ```python
-lt.xticks(
+plt.xticks(
     rotation = x, #degrees
     horizontalalignment = 'right',
     fontweight = 'bold', # or 'light'
